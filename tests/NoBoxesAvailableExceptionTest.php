@@ -6,10 +6,10 @@
  */
 declare(strict_types=1);
 
-namespace Racem\BoxPacker;
+namespace Racem\BinPacker;
 
-use Racem\BoxPacker\Exception\NoBoxesAvailableException;
-use Racem\BoxPacker\Test\TestItem;
+use Racem\BinPacker\Exception\NoBoxesAvailableException;
+use Racem\BinPacker\Test\TestItem;
 use PHPUnit\Framework\TestCase;
 
 class NoBoxesAvailableExceptionTest extends TestCase

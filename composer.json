@@ -1,5 +1,5 @@
 {
-    "name": "racem/boxpacker",
+    "name": "racem/binpacker",
     "description": "An implementation of the 3D (actually 4D) bin packing/knapsack problem (aka creating parcels by putting items into boxes)",
     "type": "library",
     "license": "MIT",
@@ -32,12 +32,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Racem\\BoxPacker\\": "src/"
+            "Racem\\BinPacker\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Racem\\BoxPacker\\": "tests/"
+            "Racem\\BinPacker\\": "tests/"
         }
     }
 }

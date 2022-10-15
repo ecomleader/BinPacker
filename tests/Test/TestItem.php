@@ -6,10 +6,10 @@
  */
 declare(strict_types=1);
 
-namespace Racem\BoxPacker\Test;
+namespace Racem\BinPacker\Test;
 
-use Racem\BoxPacker\Item;
-use Racem\BoxPacker\Rotation;
+use Racem\BinPacker\Item;
+use Racem\BinPacker\Rotation;
 use JsonSerializable;
 use stdClass;
 

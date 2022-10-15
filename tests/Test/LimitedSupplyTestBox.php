@@ -6,9 +6,9 @@
  */
 declare(strict_types=1);
 
-namespace Racem\BoxPacker\Test;
+namespace Racem\BinPacker\Test;
 
-use Racem\BoxPacker\LimitedSupplyBox;
+use Racem\BinPacker\LimitedSupplyBox;
 
 class LimitedSupplyTestBox extends TestBox implements LimitedSupplyBox
 {

@@ -7,16 +7,16 @@
 declare(strict_types=1);
 
 use Behat\Behat\Context\Context;
-use Racem\BoxPacker\Box;
-use Racem\BoxPacker\BoxList;
-use Racem\BoxPacker\ItemList;
-use Racem\BoxPacker\PackedBox;
-use Racem\BoxPacker\PackedBoxList;
-use Racem\BoxPacker\Packer;
-use Racem\BoxPacker\Rotation;
-use Racem\BoxPacker\Test\TestBox;
-use Racem\BoxPacker\Test\TestItem;
-use Racem\BoxPacker\VolumePacker;
+use Racem\BinPacker\Box;
+use Racem\BinPacker\BoxList;
+use Racem\BinPacker\ItemList;
+use Racem\BinPacker\PackedBox;
+use Racem\BinPacker\PackedBoxList;
+use Racem\BinPacker\Packer;
+use Racem\BinPacker\Rotation;
+use Racem\BinPacker\Test\TestBox;
+use Racem\BinPacker\Test\TestItem;
+use Racem\BinPacker\VolumePacker;
 use PHPUnit\Framework\Assert;
 
 \chdir(__DIR__ . '/../..');

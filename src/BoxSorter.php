@@ -6,7 +6,7 @@
  */
 declare(strict_types=1);
 
-namespace Racem\BoxPacker;
+namespace Racem\BinPacker;
 
 /**
  * A callback to be used with usort(), implementing logic to determine which Box is "better".

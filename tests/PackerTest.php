@@ -6,14 +6,14 @@
  */
 declare(strict_types=1);
 
-namespace Racem\BoxPacker;
+namespace Racem\BinPacker;
 
-use Racem\BoxPacker\Exception\NoBoxesAvailableException;
-use Racem\BoxPacker\Test\ConstrainedPlacementByCountTestItem;
-use Racem\BoxPacker\Test\LimitedSupplyTestBox;
-use Racem\BoxPacker\Test\PackedBoxByReferenceSorter;
-use Racem\BoxPacker\Test\TestBox;
-use Racem\BoxPacker\Test\TestItem;
+use Racem\BinPacker\Exception\NoBoxesAvailableException;
+use Racem\BinPacker\Test\ConstrainedPlacementByCountTestItem;
+use Racem\BinPacker\Test\LimitedSupplyTestBox;
+use Racem\BinPacker\Test\PackedBoxByReferenceSorter;
+use Racem\BinPacker\Test\TestBox;
+use Racem\BinPacker\Test\TestItem;
 use PHPUnit\Framework\TestCase;
 
 use function iterator_to_array;

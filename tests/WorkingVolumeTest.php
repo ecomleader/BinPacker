@@ -6,7 +6,7 @@
  */
 declare(strict_types=1);
 
-namespace Racem\BoxPacker;
+namespace Racem\BinPacker;
 
 use PHPUnit\Framework\TestCase;
 
@@ -14,7 +14,7 @@ use function json_decode;
 use function json_encode;
 
 /**
- * @covers \Racem\BoxPacker\WorkingVolume
+ * @covers \Racem\BinPacker\WorkingVolume
  */
 class WorkingVolumeTest extends TestCase
 {

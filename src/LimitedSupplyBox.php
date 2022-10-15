@@ -6,7 +6,7 @@
  */
 declare(strict_types=1);
 
-namespace Racem\BoxPacker;
+namespace Racem\BinPacker;
 
 /**
  * A "box" (or envelope?) to pack items into with limited supply.

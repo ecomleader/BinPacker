@@ -6,16 +6,16 @@
  */
 declare(strict_types=1);
 
-namespace Racem\BoxPacker;
+namespace Racem\BinPacker;
 
-use Racem\BoxPacker\Test\TestItem;
+use Racem\BinPacker\Test\TestItem;
 use PHPUnit\Framework\TestCase;
 
 use function json_decode;
 use function json_encode;
 
 /**
- * @covers \Racem\BoxPacker\OrientatedItem
+ * @covers \Racem\BinPacker\OrientatedItem
  */
 class OrientatedItemTest extends TestCase
 {

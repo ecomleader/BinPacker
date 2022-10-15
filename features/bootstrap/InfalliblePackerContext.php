@@ -6,9 +6,9 @@
  */
 declare(strict_types=1);
 
-use Racem\BoxPacker\Item;
-use Racem\BoxPacker\ItemList;
-use Racem\BoxPacker\Packer;
+use Racem\BinPacker\Item;
+use Racem\BinPacker\ItemList;
+use Racem\BinPacker\Packer;
 use PHPUnit\Framework\Assert;
 
 /**
