@@ -1,20 +1,15 @@
 {
     "name": "racem/boxpacker",
     "description": "An implementation of the 3D (actually 4D) bin packing/knapsack problem (aka creating parcels by putting items into boxes)",
-    "keywords": ["packing","binpacking","bin packing","knapsack","box","boxpacking","parcel","parcelpacking","shipping","packaging","boxes", "container"],
     "type": "library",
-    "homepage": "https://www.boxpacker.io/",
+    "license": "MIT",
     "authors": [
         {
-            "name": "Doug Wright",
-            "role": "Developer"
-        },
-        {
             "name": "Racem Chakroun",
-            "role": "Developer"
+            "email": "contact@racemchakroun.com"
         }
     ],
-    "license": "MIT",
+    "minimum-stability": "stable",
     "require": {
         "php": "^8.1",
         "ext-json": "*",
