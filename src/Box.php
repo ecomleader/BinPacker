@@ -19,6 +19,11 @@ interface Box
     public function getReference(): string;
 
     /**
+     * Bin type (e.g. FlatBag, Box).
+     */
+    public function getType(): string;
+
+    /**
      * Outer width in mm.
      */
     public function getOuterWidth(): int;
@@ -57,4 +62,19 @@ interface Box
      * Max weight the packaging can hold in g.
      */
     public function getMaxWeight(): int;
+
+    /**
+     * Max weight the packaging can hold in g.
+     */
+    public function getMaxVolume(): int;
+
+    /**
+     * Set Bag Dimensions
+     */
+    public function setFlatBagDimensions($boxWidth, $boxLength, $boxDepth): bool;
+
+    /**
+     * Set Bag Dimensions
+     */
+    public function setInnerDepth($depth): bool;
 }
