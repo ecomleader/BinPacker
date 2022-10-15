@@ -39,10 +39,5 @@
         "psr-4": {
             "Racem\\BoxPacker\\": "tests/"
         }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "4.0-dev"
-        }
     }
 }
