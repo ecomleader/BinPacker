@@ -6,9 +6,9 @@
  */
 declare(strict_types=1);
 
-namespace DVDoug\BoxPacker;
+namespace Racem\BoxPacker;
 
-use DVDoug\BoxPacker\Test\TestItem;
+use Racem\BoxPacker\Test\TestItem;
 use PHPUnit\Framework\TestCase;
 
 class PackedLayerTest extends TestCase

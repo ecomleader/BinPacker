@@ -6,10 +6,10 @@
  */
 declare(strict_types=1);
 
-namespace DVDoug\BoxPacker\Test;
+namespace Racem\BoxPacker\Test;
 
-use DVDoug\BoxPacker\PackedBox;
-use DVDoug\BoxPacker\PackedBoxSorter;
+use Racem\BoxPacker\PackedBox;
+use Racem\BoxPacker\PackedBoxSorter;
 
 class PackedBoxByReferenceSorter implements PackedBoxSorter
 {

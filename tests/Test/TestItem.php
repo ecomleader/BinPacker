@@ -6,10 +6,10 @@
  */
 declare(strict_types=1);
 
-namespace DVDoug\BoxPacker\Test;
+namespace Racem\BoxPacker\Test;
 
-use DVDoug\BoxPacker\Item;
-use DVDoug\BoxPacker\Rotation;
+use Racem\BoxPacker\Item;
+use Racem\BoxPacker\Rotation;
 use JsonSerializable;
 use stdClass;
 

@@ -6,9 +6,9 @@
  */
 declare(strict_types=1);
 
-namespace DVDoug\BoxPacker\Test;
+namespace Racem\BoxPacker\Test;
 
-use DVDoug\BoxPacker\LimitedSupplyBox;
+use Racem\BoxPacker\LimitedSupplyBox;
 
 class LimitedSupplyTestBox extends TestBox implements LimitedSupplyBox
 {

@@ -6,7 +6,7 @@
  */
 declare(strict_types=1);
 
-namespace DVDoug\BoxPacker;
+namespace Racem\BoxPacker;
 
 use PHPUnit\Framework\TestCase;
 
@@ -14,7 +14,7 @@ use function json_decode;
 use function json_encode;
 
 /**
- * @covers \DVDoug\BoxPacker\WorkingVolume
+ * @covers \Racem\BoxPacker\WorkingVolume
  */
 class WorkingVolumeTest extends TestCase
 {

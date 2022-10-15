@@ -7,9 +7,9 @@
  */
 declare(strict_types=1);
 
-namespace DVDoug\BoxPacker\Exception;
+namespace Racem\BoxPacker\Exception;
 
-use DVDoug\BoxPacker\ItemList;
+use Racem\BoxPacker\ItemList;
 use RuntimeException;
 
 /**

@@ -6,7 +6,7 @@
  */
 declare(strict_types=1);
 
-namespace DVDoug\BoxPacker;
+namespace Racem\BoxPacker;
 
 class DefaultBoxSorter implements BoxSorter
 {

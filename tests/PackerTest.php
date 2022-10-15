@@ -6,14 +6,14 @@
  */
 declare(strict_types=1);
 
-namespace DVDoug\BoxPacker;
+namespace Racem\BoxPacker;
 
-use DVDoug\BoxPacker\Exception\NoBoxesAvailableException;
-use DVDoug\BoxPacker\Test\ConstrainedPlacementByCountTestItem;
-use DVDoug\BoxPacker\Test\LimitedSupplyTestBox;
-use DVDoug\BoxPacker\Test\PackedBoxByReferenceSorter;
-use DVDoug\BoxPacker\Test\TestBox;
-use DVDoug\BoxPacker\Test\TestItem;
+use Racem\BoxPacker\Exception\NoBoxesAvailableException;
+use Racem\BoxPacker\Test\ConstrainedPlacementByCountTestItem;
+use Racem\BoxPacker\Test\LimitedSupplyTestBox;
+use Racem\BoxPacker\Test\PackedBoxByReferenceSorter;
+use Racem\BoxPacker\Test\TestBox;
+use Racem\BoxPacker\Test\TestItem;
 use PHPUnit\Framework\TestCase;
 
 use function iterator_to_array;
