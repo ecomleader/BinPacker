@@ -6,15 +6,15 @@
  */
 declare(strict_types=1);
 
-namespace DVDoug\BoxPacker;
+namespace Racem\BoxPacker;
 
-use DVDoug\BoxPacker\Test\TestBox;
+use Racem\BoxPacker\Test\TestBox;
 use PHPUnit\Framework\TestCase;
 
 use function iterator_to_array;
 
 /**
- * @covers \DVDoug\BoxPacker\BoxList
+ * @covers \Racem\BoxPacker\BoxList
  */
 class BoxListTest extends TestCase
 {

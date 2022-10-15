@@ -6,16 +6,16 @@
  */
 declare(strict_types=1);
 
-namespace DVDoug\BoxPacker;
+namespace Racem\BoxPacker;
 
-use DVDoug\BoxPacker\Test\TestItem;
+use Racem\BoxPacker\Test\TestItem;
 use PHPUnit\Framework\TestCase;
 
 use function json_decode;
 use function json_encode;
 
 /**
- * @covers \DVDoug\BoxPacker\OrientatedItem
+ * @covers \Racem\BoxPacker\OrientatedItem
  */
 class OrientatedItemTest extends TestCase
 {

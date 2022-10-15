@@ -6,12 +6,12 @@
  */
 declare(strict_types=1);
 
-namespace DVDoug\BoxPacker\Test;
+namespace Racem\BoxPacker\Test;
 
-use DVDoug\BoxPacker\Box;
-use DVDoug\BoxPacker\ConstrainedPlacementItem;
-use DVDoug\BoxPacker\PackedBox;
-use DVDoug\BoxPacker\PackedItem;
+use Racem\BoxPacker\Box;
+use Racem\BoxPacker\ConstrainedPlacementItem;
+use Racem\BoxPacker\PackedBox;
+use Racem\BoxPacker\PackedItem;
 
 use function array_filter;
 use function count;

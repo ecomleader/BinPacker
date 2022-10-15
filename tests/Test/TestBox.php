@@ -6,9 +6,9 @@
  */
 declare(strict_types=1);
 
-namespace DVDoug\BoxPacker\Test;
+namespace Racem\BoxPacker\Test;
 
-use DVDoug\BoxPacker\Box;
+use Racem\BoxPacker\Box;
 use JsonSerializable;
 
 class TestBox implements Box, JsonSerializable

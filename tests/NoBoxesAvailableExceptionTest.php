@@ -6,10 +6,10 @@
  */
 declare(strict_types=1);
 
-namespace DVDoug\BoxPacker;
+namespace Racem\BoxPacker;
 
-use DVDoug\BoxPacker\Exception\NoBoxesAvailableException;
-use DVDoug\BoxPacker\Test\TestItem;
+use Racem\BoxPacker\Exception\NoBoxesAvailableException;
+use Racem\BoxPacker\Test\TestItem;
 use PHPUnit\Framework\TestCase;
 
 class NoBoxesAvailableExceptionTest extends TestCase

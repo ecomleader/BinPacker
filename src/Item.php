@@ -6,7 +6,7 @@
  */
 declare(strict_types=1);
 
-namespace DVDoug\BoxPacker;
+namespace Racem\BoxPacker;
 
 /**
  * An item to be packed.

@@ -6,17 +6,17 @@
  */
 declare(strict_types=1);
 
-namespace DVDoug\BoxPacker;
+namespace Racem\BoxPacker;
 
-use DVDoug\BoxPacker\Test\ConstrainedPlacementNoStackingTestItem;
-use DVDoug\BoxPacker\Test\TestBox;
-use DVDoug\BoxPacker\Test\TestItem;
+use Racem\BoxPacker\Test\ConstrainedPlacementNoStackingTestItem;
+use Racem\BoxPacker\Test\TestBox;
+use Racem\BoxPacker\Test\TestItem;
 use PHPUnit\Framework\TestCase;
 
 use function iterator_to_array;
 
 /**
- * @covers \DVDoug\BoxPacker\WeightRedistributor
+ * @covers \Racem\BoxPacker\WeightRedistributor
  */
 class WeightRedistributorTest extends TestCase
 {
