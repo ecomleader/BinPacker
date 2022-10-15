@@ -7,9 +7,9 @@
  */
 declare(strict_types=1);
 
-namespace Racem\BoxPacker\Exception;
+namespace Racem\BinPacker\Exception;
 
-use Racem\BoxPacker\ItemList;
+use Racem\BinPacker\ItemList;
 use RuntimeException;
 
 /**

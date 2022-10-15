@@ -6,9 +6,9 @@
  */
 declare(strict_types=1);
 
-namespace Racem\BoxPacker;
+namespace Racem\BinPacker;
 
-use Racem\BoxPacker\Exception\NoBoxesAvailableException;
+use Racem\BinPacker\Exception\NoBoxesAvailableException;
 use Psr\Log\LoggerAwareInterface;
 use Psr\Log\LoggerInterface;
 use Psr\Log\LogLevel;

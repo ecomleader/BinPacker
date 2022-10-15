@@ -6,10 +6,10 @@
  */
 declare(strict_types=1);
 
-namespace Racem\BoxPacker;
+namespace Racem\BinPacker;
 
-use Racem\BoxPacker\Test\TestBox;
-use Racem\BoxPacker\Test\TestItem;
+use Racem\BinPacker\Test\TestBox;
+use Racem\BinPacker\Test\TestItem;
 use PHPUnit\Framework\TestCase;
 
 use const PHP_INT_MAX;

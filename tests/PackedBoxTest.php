@@ -6,17 +6,17 @@
  */
 declare(strict_types=1);
 
-namespace Racem\BoxPacker;
+namespace Racem\BinPacker;
 
-use Racem\BoxPacker\Test\TestBox;
-use Racem\BoxPacker\Test\TestItem;
+use Racem\BinPacker\Test\TestBox;
+use Racem\BinPacker\Test\TestItem;
 use PHPUnit\Framework\TestCase;
 use ReflectionProperty;
 
 use function json_encode;
 
 /**
- * @covers \Racem\BoxPacker\PackedBox
+ * @covers \Racem\BinPacker\PackedBox
  */
 class PackedBoxTest extends TestCase
 {

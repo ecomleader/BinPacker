@@ -6,10 +6,10 @@
  */
 declare(strict_types=1);
 
-namespace Racem\BoxPacker;
+namespace Racem\BinPacker;
 
-use Racem\BoxPacker\Test\TestBox;
-use Racem\BoxPacker\Test\THPackTestItem;
+use Racem\BinPacker\Test\TestBox;
+use Racem\BinPacker\Test\THPackTestItem;
 use PHPUnit\Framework\TestCase;
 
 use function explode;
@@ -30,9 +30,9 @@ use function trim;
  * design goal of this library which is to simulate how a human does packing arrangements.
  *
  * Also of note, is that these tests are designed to exercise an algorithm that fits the most number of
- * packages into a single box, whereas BoxPacker is designed to use multiple boxes because in real life
+ * packages into a single box, whereas BinPacker is designed to use multiple boxes because in real life
  * you want all of your stuff packed, not just some of it. Therefore the output of these tests are not
- * representative of real BoxPacker output, as BoxPacker is designed to distribute packages as evenly as
+ * representative of real BinPacker output, as BinPacker is designed to distribute packages as evenly as
  * possible between boxes, instead of e.g. cramming one to the top and having a second box mostly empty.
  *
  * Test data taken from the OR Library http://people.brunel.ac.uk/~mastjjb/jeb/orlib/thpackinfo.html

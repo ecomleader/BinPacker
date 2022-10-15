@@ -6,10 +6,10 @@
  */
 declare(strict_types=1);
 
-namespace Racem\BoxPacker\Test;
+namespace Racem\BinPacker\Test;
 
-use Racem\BoxPacker\PackedBox;
-use Racem\BoxPacker\PackedBoxSorter;
+use Racem\BinPacker\PackedBox;
+use Racem\BinPacker\PackedBoxSorter;
 
 class PackedBoxByReferenceSorter implements PackedBoxSorter
 {

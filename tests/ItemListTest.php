@@ -6,15 +6,15 @@
  */
 declare(strict_types=1);
 
-namespace Racem\BoxPacker;
+namespace Racem\BinPacker;
 
-use Racem\BoxPacker\Test\TestItem;
+use Racem\BinPacker\Test\TestItem;
 use PHPUnit\Framework\TestCase;
 
 use function iterator_to_array;
 
 /**
- * @covers \Racem\BoxPacker\ItemList
+ * @covers \Racem\BinPacker\ItemList
  */
 class ItemListTest extends TestCase
 {

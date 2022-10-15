@@ -9,7 +9,7 @@
 >
 
   <testsuites>
-    <testsuite name="BoxPacker">
+    <testsuite name="BinPacker">
       <directory>tests</directory>
     </testsuite>
   </testsuites>

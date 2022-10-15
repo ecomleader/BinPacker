@@ -6,9 +6,9 @@
  */
 declare(strict_types=1);
 
-namespace Racem\BoxPacker\Test;
+namespace Racem\BinPacker\Test;
 
-use Racem\BoxPacker\Box;
+use Racem\BinPacker\Box;
 use JsonSerializable;
 
 class TestBox implements Box, JsonSerializable

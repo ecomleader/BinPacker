@@ -6,7 +6,7 @@
  */
 declare(strict_types=1);
 
-namespace Racem\BoxPacker;
+namespace Racem\BinPacker;
 
 use Psr\Log\LoggerAwareInterface;
 use Psr\Log\LoggerInterface;

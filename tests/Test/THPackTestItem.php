@@ -6,12 +6,12 @@
  */
 declare(strict_types=1);
 
-namespace Racem\BoxPacker\Test;
+namespace Racem\BinPacker\Test;
 
-use Racem\BoxPacker\Box;
-use Racem\BoxPacker\ConstrainedPlacementItem;
-use Racem\BoxPacker\PackedBox;
-use Racem\BoxPacker\Rotation;
+use Racem\BinPacker\Box;
+use Racem\BinPacker\ConstrainedPlacementItem;
+use Racem\BinPacker\PackedBox;
+use Racem\BinPacker\Rotation;
 
 class THPackTestItem implements ConstrainedPlacementItem
 {
